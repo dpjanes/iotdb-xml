@@ -31,7 +31,7 @@ const path = require("path")
 
 const _util = require("./_util")
 
-const WRITE = true
+const WRITE = false
 const LOG = true
 
 /**
@@ -123,7 +123,7 @@ describe("initialize", function() {
             _.promise(self)
                 .then(_read_in(`${name}.xml`))
                 .then(xml.convert)
-                .conditional(true, _write_result(`${name}.json`))
+                .conditional(WRITE, _write_result(`${name}.json`))
                 .conditional(LOG, _log_result(`${name}.xml`))
                 .then(_read_result(`${name}.json`))
                 .make(sd => {
@@ -132,13 +132,13 @@ describe("initialize", function() {
                 })
                 .end(done, {})
         })
-        if (0) it("sample-2", function(done) {
+        it("sample-2", function(done) {
             const name = "sample-2"
 
             _.promise(self)
                 .then(_read_in(`${name}.xml`))
                 .then(xml.convert)
-                .conditional(true, _write_result(`${name}.json`))
+                .conditional(WRITE, _write_result(`${name}.json`))
                 .conditional(LOG, _log_result(`${name}.xml`))
                 .then(_read_result(`${name}.json`))
                 .make(sd => {
