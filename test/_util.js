@@ -39,19 +39,7 @@ const ok_error = (done, code) => error => {
 }
 
 /**
- *  Standard connection
- */
-const initialize = _.promise((self, done) => {
-    _.promise(self)
-        .add("xml$cfg", require("./data/xml.json"))
-        .then(xml.initialize)
-        .end(done, self, initialize)
-})
-
-/**
  *  API
  */
 exports.auto_fail = auto_fail
 exports.ok_error = ok_error
-
-exports.initialize = initialize

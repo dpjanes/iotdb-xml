@@ -1,0 +1,26 @@
+{
+  "stoneinfo": {
+    "stoneid": "XXXXXXX",
+    "weight": "0.635",
+    "reporttype": "Diamond Quality Analysis",
+    "shape": "Sirius Star 80",
+    "measurement": "5.40 - 5.47 x 3.38 mm",
+    "cut": "AGS Excellent 1",
+    "polish": "Very Good",
+    "symmetry": "Very Good",
+    "color": "AGS 2.5 (I)",
+    "clarity": "AGS 7 (SI2)",
+    "fluorescence": "Negligible",
+    "comment1": "\"<Sirius Star 2 symbol> XXXX\" has been inscribed on the girdle of this diamond.",
+    "tablediameter": "51.9%",
+    "crown": "36.1",
+    "crownheight": "18.2%",
+    "pavilion": "34.7",
+    "paviliondepth": "42.1%",
+    "totaldepth": "62.2%",
+    "girdleperc": "Faceted, 0.6% to 3.8%",
+    "culet": "Pointed",
+    "star": "0%",
+    "lowergirdle": "0%"
+  }
+}
