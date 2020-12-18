@@ -5,7 +5,7 @@
     }, 
     "dependencies": {
         "iotdb-errors": "~3.1.9", 
-        "iotdb-helpers": "~3.4.12", 
+        "iotdb-helpers": "~3.5.2", 
         "xml2js": "~0.4.23"
     }, 
     "description": "POP Interface for XML", 
@@ -22,5 +22,5 @@
         "cover": "nyc --reporter=html mocha --recursive", 
         "test": "mocha --recursive --bail"
     }, 
-    "version": "1.0.3"
+    "version": "1.0.4"
 }
